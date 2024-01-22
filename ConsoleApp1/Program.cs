@@ -118,7 +118,7 @@ class NumberPatternPrinter
 {
     public static void PrintPattern()
     {
-        Console.WriteLine("Enter a positive integer:");
+        Console.WriteLine("Enter a number:");
         string input = Console.ReadLine();
 
         if (int.TryParse(input, out int n) && n > 0)
@@ -127,7 +127,7 @@ class NumberPatternPrinter
         }
         else
         {
-            Console.WriteLine("Invalid input. Please enter a positive integer.");
+            Console.WriteLine("Invalid input. Please enter a number.");
         }
     }
 
@@ -148,7 +148,7 @@ class SumAndFormulaCalculator
 {
     public static void CalculateSumAndFormula()
     {
-        Console.WriteLine("Enter a positive integer:");
+        Console.WriteLine("Enter a number :");
         string input = Console.ReadLine();
 
         if (int.TryParse(input, out int n) && n > 0)
@@ -161,7 +161,7 @@ class SumAndFormulaCalculator
         }
         else
         {
-            Console.WriteLine("Invalid input. Please enter a positive integer.");
+            Console.WriteLine("Invalid input. Please enter a number.");
         }
     }
 
@@ -182,7 +182,7 @@ class ReversedNumberPatternPrinter
 {
     public static void PrintReversedPattern()
     {
-        Console.WriteLine("Enter a positive integer:");
+        Console.WriteLine("Enter a number:");
         string input = Console.ReadLine();
 
         if (int.TryParse(input, out int n) && n > 0)
@@ -191,7 +191,7 @@ class ReversedNumberPatternPrinter
         }
         else
         {
-            Console.WriteLine("Invalid input. Please enter a positive integer.");
+            Console.WriteLine("Invalid input. Please enter a number.");
         }
     }
 

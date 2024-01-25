@@ -89,7 +89,7 @@ namespace CSharpRampUp
             string choice = Console.ReadLine();
 
                 // Part 2 - Program options
-
+            // selection statement
             switch (choice)
             {
                 case "1":

@@ -150,7 +150,7 @@ class SumAndFormulaCalculator
     {
         Console.WriteLine("Enter a number :");
         string input = Console.ReadLine();
-
+                                        // Returns True if both statements are true.
         if (int.TryParse(input, out int n) && n > 0)
         {
             string formula = GenerateFormula(n);

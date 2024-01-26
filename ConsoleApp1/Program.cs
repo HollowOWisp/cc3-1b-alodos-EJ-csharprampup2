@@ -62,7 +62,7 @@ namespace CSharpRampUp
             double averageAge = totalAge / 10;
             
             Console.WriteLine("Student ages: ");
-            foreach (double age in studentAges)    // enumerates the elements of a collection and executes its body for each element of the collection.
+            foreach (double age in studentAges)    // used to iterate through items in collections
             {
                 Console.WriteLine(age);
             }

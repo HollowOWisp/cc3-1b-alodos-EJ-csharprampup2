@@ -150,7 +150,7 @@ class SumAndFormulaCalculator
     {
         Console.WriteLine("Enter a number :");
         string input = Console.ReadLine();
-      // used for the passing the arguments to methods as a reference type  
+                                // used for the passing the arguments to methods as a reference type  
                                             // Returns True if both statements are true.
         if (int.TryParse(input, out int n) && n > 0)
         {

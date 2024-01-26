@@ -52,7 +52,7 @@ namespace CSharpRampUp
             double[] studentAges = new double[10];
             double totalAge = 0;
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++) // iterates through items until a certain condition is true.
             {
                 Console.Write($"Enter age of student {i + 1}: ");
                 studentAges[i] = double.Parse(Console.ReadLine());

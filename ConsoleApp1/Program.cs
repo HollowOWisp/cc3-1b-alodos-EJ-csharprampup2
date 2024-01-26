@@ -11,7 +11,7 @@ namespace CSharpRampUp
             Console.WriteLine("2. Perform Mathematical Operations");
 
             string choice = Console.ReadLine();
-
+            //provides an efficient way to transfer the execution to different parts of a code based on the value of the expression.
             switch (choice)
             {
                 case "1":
@@ -150,7 +150,8 @@ class SumAndFormulaCalculator
     {
         Console.WriteLine("Enter a number :");
         string input = Console.ReadLine();
-                                        // Returns True if both statements are true.
+      // used for the passing the arguments to methods as a reference type  
+                                            // Returns True if both statements are true.
         if (int.TryParse(input, out int n) && n > 0)
         {
             string formula = GenerateFormula(n);

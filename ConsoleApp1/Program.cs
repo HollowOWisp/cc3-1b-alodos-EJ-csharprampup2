@@ -33,7 +33,7 @@ namespace CSharpRampUp
             // Pounds to kilograms 
             Console.Write("Enter weight in pounds: ");
             double pounds = double.Parse(Console.ReadLine());
-            double kilograms = pounds * 0.453592;
+            double kilograms = pounds * 0.453592;                      //Two-Decimal points
             Console.WriteLine($"{pounds} pounds is equal to {kilograms:F2} kilograms");
 
             // Miles to kilometers 
